@@ -1,11 +1,13 @@
 package com.jeffersonreboucas.cursoSpring.repositories;
 
+import javax.persistence.Entity;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.jeffersonreboucas.cursoSpring.domain.Categoria;
+import com.jeffersonreboucas.cursoSpring.domain.Estado;
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria, Integer>  {
+public interface EstadoRepository extends JpaRepository<Estado, Integer>{
 
 }
